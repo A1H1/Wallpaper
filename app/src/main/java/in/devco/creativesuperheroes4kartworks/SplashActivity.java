@@ -8,6 +8,10 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import in.devco.creativesuperheroes4kartworks.activity.MainActivity;
 import in.devco.creativesuperheroes4kartworks.config.Config;
@@ -50,6 +54,12 @@ public class SplashActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+        TextView tv= findViewById(R.id.tv);
+        ImageView iv= findViewById(R.id.iv);
+        Animation anim= AnimationUtils.loadAnimation(this, R.anim.transition_spalsh);
+        tv.startAnimation(anim);
+        iv.startAnimation(anim);
+
         new AsyncFetchCategory().execute();
         new AsyncFetchAllWallpapers().execute();
     }
