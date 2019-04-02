@@ -11,6 +11,11 @@
             android:title="Wallpapers" />
 
         <item
+            android:id="@+id/nav_categories"
+            android:icon="@drawable/ic_collections"
+            android:title="Categories" />
+
+        <item
             android:id="@+id/nav_favorites"
             android:icon="@drawable/ic_menu_favorite"
             android:title="Favorites" />

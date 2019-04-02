@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Wallpapers</string>
-    <string name="dev">Kingdov</string>
-    <string name="mail">prooo.dev@outlook.com</string>
+    <string name="app_name">Creative Superheroes 4K Artworks</string>
+    <string name="dev">Devco</string>
+    <string name="mail">the.devco.team@gmail.com</string>
     <string name="storage_required_title">Storage permission required</string>
     <string name="storage_explanation_1">The storage permission lets </string>
     <string name="storage_explanation_2"> download the wallpaper you love to your internal storage for offline viewing!</string>
